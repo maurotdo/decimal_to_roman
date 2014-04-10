@@ -1,0 +1,30 @@
+{
+    "name": "maurotdo/cm14-skel",
+    "license": "MIT",
+    "type": "project",
+    "description": "A very basic composer project",
+    "authors": [
+        {
+            "name": "Mauro Maggi",
+            "email": "maurotdo@gmail.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": { "CM14\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "4.2.*@dev"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
